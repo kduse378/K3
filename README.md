@@ -64,7 +64,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("❌ ይህ ስም የተመዘገበ አይደለም!")
 
 def main():
-    TELEGRAM_TOKEN = "8521872647:AAHwWhKioDdmxTTgzOSSJTAl-S8kDXN5AyA"  # ይቀይሩ!
+    TELEGRAM_TOKEN = "1111111111111111111111111"  # ይቀይሩ!
     app = Application.builder().token(TELEGRAM_TOKEN).build()
     
     app.add_handler(CommandHandler("start", start))
